@@ -2,9 +2,93 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 30b0ade0-bb43-474b-8aae-09f32d71430b)
+	(uuid "30b0ade0-bb43-474b-8aae-09f32d71430b")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 63.5 74.93)
+		(size 39.37 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 8 255 52 1.0000)
+		)
+		(uuid "37ef2721-07c8-41aa-a59b-e8cb61a196fe")
+		(property "Sheetname" "Main"
+			(at 63.5 74.2184 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 63.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nav-Lights"
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 74.93)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 6 253 255 1.0000)
+		)
+		(uuid "66b59111-040b-4743-892c-9a732383e43f")
+		(property "Sheetname" "PCB"
+			(at 176.53 74.2184 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb.kicad_sch"
+			(at 176.53 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nav-Lights"
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
