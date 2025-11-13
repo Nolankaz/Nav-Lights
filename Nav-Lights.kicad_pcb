@@ -15274,7 +15274,7 @@
 		(layer "Edge.Cuts")
 		(uuid "9e1d9108-ff02-4c39-89c4-89b20fc9ff13")
 	)
-	(gr_text "Nolan KM"
+	(gr_text "NolanKaz"
 		(at 125 123 0)
 		(layer "F.SilkS")
 		(uuid "040ca1f6-35f5-4936-b263-032fa105aaa3")
