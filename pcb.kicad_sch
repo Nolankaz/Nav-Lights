@@ -139,7 +139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 140.97 101.6 0)
 			(effects
 				(font
@@ -275,7 +275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7288ae47-e653-4ea7-8f02-e81a9ab113a5")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 143.51 62.2299 0)
 			(effects
 				(font
@@ -293,7 +293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 140.97 63.5 0)
 			(effects
 				(font
@@ -413,7 +413,7 @@
 		(instances
 			(project ""
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/66b59111-040b-4743-892c-9a732383e43f"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -447,7 +447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -583,7 +583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945e7c3e-6a86-4d4c-8b17-1c929b44d7eb")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 78.74 101.5999 0)
 			(effects
 				(font
@@ -601,7 +601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -721,7 +721,7 @@
 		(instances
 			(project ""
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/66b59111-040b-4743-892c-9a732383e43f"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
