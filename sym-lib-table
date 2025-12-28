@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "_LMC555(small)")(type "KiCad")(uri "${KIPRJMOD}/symbols/LMC555CMMX_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "_TPS7B8133QWDRVRQ1(small)")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7B8133DRVR.kicad_sym")(options "")(descr ""))
+  (lib (name "_LT8374RUFM-1#WPBF")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-12-24_07-00-24.kicad_sym")(options "")(descr ""))
+)

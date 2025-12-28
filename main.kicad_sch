@@ -1044,8 +1044,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 2.1433 12.7 0)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1053,8 +1053,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LMC555xCMX"
-				(at 2.1433 10.16 0)
+			(property "Value" "LMC555xM"
+				(at 2.54 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1081,132 +1081,6 @@
 				)
 			)
 			(property "Description" "CMOS Timer, 555 compatible, SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr P/N" "LMC555CMX/NOPB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "DigiKey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1 P/N" "LMC555CMX/NOPBCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1 Unit Price" "$1.10000"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1 Price @ Qty" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 P/N" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 Price @ Qty" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 Unit Price" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 P/N" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 Price @ Qty" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 Unit Price" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1278,7 +1152,7 @@
 				)
 			)
 			(symbol "LMC555xM_1_0"
-				(pin power_out line
+				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
@@ -1416,7 +1290,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
+			(property "Reference" "U"
 				(at 27.94 10.16 0)
 				(effects
 					(font
@@ -1452,97 +1326,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "60V 1A SIMPLE LED DRIVER - 330KH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr" "Analog Devices Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr P/N" "LT8374RUFM#WPBF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1" "DigiKey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 P/N" "505-LT8374RUFM#WPBF-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 Price @ Qty" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 Unit Price" "$5.34"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 P/N" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 Price @ Qty" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 Unit Price" ""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1624,42 +1408,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin input line
-					(at 55.88 -12.7 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 55.88 -20.32 180)
-					(length 7.62)
-					(name "AVIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -1790,7 +1538,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 7.62)
 					(name "GND"
@@ -1808,7 +1556,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 0 180)
 					(length 7.62)
 					(name "EPAD"
@@ -1898,7 +1646,25 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
+					(at 55.88 -12.7 180)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 55.88 -15.24 180)
 					(length 7.62)
 					(name "GND"
@@ -1916,7 +1682,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 55.88 -17.78 180)
 					(length 7.62)
 					(name "INTVCC"
@@ -1934,266 +1700,10 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "_TPS7B81-Q1:TPS7B8133QDGNRQ1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U3"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TPS7B8133QDGNRQ1"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "VSSOP8_DGN_TEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tps7b81-q1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC REG LIN 3.3V 150MA 8-HVSSOP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr P/N" "TPS7B8133QDGNRQ1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1" "DigiKey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 P/N" "296-TPS7B8133QDGNRQ1CT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 Price @ Qty" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_1 Unit Price" "$1.60"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 P/N" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 Price @ Qty" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier_2 Unit Price" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TPS7B8133QDGNRQ1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VSSOP8_DGN_TEX VSSOP8_DGN_TEX-M VSSOP8_DGN_TEX-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS7B8133QDGNRQ1_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -15.24)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -15.24) (xy 33.02 -15.24)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -15.24) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
+				(pin passive line
+					(at 55.88 -20.32 180)
 					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "EPAD"
+					(name "AVIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2208,112 +1718,309 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_TPS7B8133QWDRVRQ1(small):TPS7B8133DRVR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 8.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
+					(justify left bottom)
 				)
 			)
-			(symbol "TPS7B8133QDGNRQ1_1_1"
+			(property "Value" "TPS7B8133DRVR"
+				(at -12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TPS7B8133DRVR:SON65P200X200X80-7N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "296-TPS7B8133DRVRCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS7B8133DRVR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "WSON-6 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS7B8133DRVR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "April 2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPS7B8133DRVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "150-mA, off-battery (40-V), ultra-low-IQ, low-dropout (LDO) voltage regulator with enable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPS7B8133DRVR_0_0"
+				(rectangle
+					(start -12.7 -10.16)
+					(end 12.7 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin input line
-					(at 0 0 0)
-					(length 7.62)
+					(at -17.78 5.08 0)
+					(length 5.08)
 					(name "IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "GND"
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 40.64 -7.62 180)
-					(length 7.62)
-					(name "GND"
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "DNC"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 -10.16 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS7B8133DRVR_1_0"
+				(pin power_out line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2547,6 +2254,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 81.28 129.54)
@@ -2565,18 +2373,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b4d3e76-2858-467c-b77f-e6c3f0c20112")
-	)
-	(junction
-		(at 55.88 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29195783-36bd-43d5-a223-a4b5f580b317")
-	)
-	(junction
-		(at 99.06 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3681a450-9563-488e-8207-28ea69b41fb4")
 	)
 	(junction
 		(at 243.84 125.73)
@@ -2609,13 +2405,25 @@
 		(uuid "9d4bb7dc-c783-4eda-97be-636ae82c6110")
 	)
 	(junction
-		(at 46.99 48.26)
+		(at 49.53 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f9d0f5b-012a-445c-be66-06a16be83903")
 	)
 	(junction
-		(at 106.68 50.8)
+		(at 96.52 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5866f33-f73f-4a95-b613-aa7753b0933a")
+	)
+	(junction
+		(at 59.69 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e3c675-6363-4e35-b13e-c68f8700a3f8")
+	)
+	(junction
+		(at 104.14 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aad95def-1611-4f75-a15c-d7344fde342c")
@@ -2657,10 +2465,14 @@
 		(uuid "f168e24c-a754-4d72-8d47-d2cee47b23c0")
 	)
 	(junction
-		(at 119.38 50.8)
+		(at 116.84 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6c58661-10a1-46d9-a24b-f6717e2abceb")
+	)
+	(no_connect
+		(at 96.52 52.07)
+		(uuid "a6b41fbf-5c35-47fb-985b-a13f1f1df676")
 	)
 	(no_connect
 		(at 36.83 129.54)
@@ -2708,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 59.69) (xy 119.38 66.04)
+			(xy 116.84 55.88) (xy 116.84 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2728,17 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 99.06 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1330597b-3c3f-4e3c-8bfb-7e5931252b47")
-	)
-	(wire
-		(pts
-			(xy 119.38 50.8) (xy 129.54 50.8)
+			(xy 116.84 46.99) (xy 127 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2758,13 +2560,33 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 153.67) (xy 269.24 157.48)
+			(xy 96.52 57.15) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d536cc-f2db-4051-a0f7-0c51e5fa70bc")
+	)
+	(wire
+		(pts
+			(xy 269.24 146.05) (xy 269.24 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "29f5b926-fef3-452f-8a9a-a521431ab5b0")
+	)
+	(wire
+		(pts
+			(xy 59.69 46.99) (xy 60.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4b255d-6b6c-4722-bb4a-ac815c8a3490")
 	)
 	(wire
 		(pts
@@ -2835,16 +2657,6 @@
 			(type default)
 		)
 		(uuid "4a7df1e6-d789-4b15-b7b3-f24357e32844")
-	)
-	(wire
-		(pts
-			(xy 58.42 50.8) (xy 55.88 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525152c6-8026-4d89-81df-4664627b0d6f")
 	)
 	(wire
 		(pts
@@ -2928,16 +2740,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 58.42) (xy 99.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aa002a8-3478-42e3-92c1-15ea31b06d12")
-	)
-	(wire
-		(pts
 			(xy 256.54 125.73) (xy 259.08 125.73)
 		)
 		(stroke
@@ -2955,16 +2757,6 @@
 			(type default)
 		)
 		(uuid "6e7767d9-fa4e-47c4-8266-1b314731ec34")
-	)
-	(wire
-		(pts
-			(xy 55.88 50.8) (xy 55.88 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75dcc5dc-631f-4e99-b1d3-837fd7b2fe0a")
 	)
 	(wire
 		(pts
@@ -3048,6 +2840,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 52.07) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8d6d41-7f02-4524-998e-cdda0a47d062")
+	)
+	(wire
+		(pts
 			(xy 125.73 115.57) (xy 120.65 115.57)
 		)
 		(stroke
@@ -3098,16 +2900,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 48.26) (xy 58.42 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21487b5-33c8-47de-9791-e9dbc1ed6e22")
-	)
-	(wire
-		(pts
 			(xy 256.54 133.35) (xy 256.54 143.51)
 		)
 		(stroke
@@ -3118,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 50.8) (xy 106.68 50.8)
+			(xy 96.52 46.99) (xy 104.14 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3128,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 119.38 50.8)
+			(xy 104.14 46.99) (xy 116.84 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3148,7 +2940,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 106.68 58.42)
+			(xy 104.14 46.99) (xy 104.14 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3168,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 48.26) (xy 46.99 48.26)
+			(xy 39.37 46.99) (xy 49.53 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3205,16 +2997,6 @@
 			(type default)
 		)
 		(uuid "d2bae1a8-22d0-4060-8463-3ba73e6fe636")
-	)
-	(wire
-		(pts
-			(xy 58.42 55.88) (xy 58.42 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d513d169-60e6-425b-b105-862050f9e5a1")
 	)
 	(wire
 		(pts
@@ -3258,13 +3040,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 48.26) (xy 101.6 48.26)
+			(xy 96.52 59.69) (xy 96.52 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec2ab79e-0b8e-424c-8eb5-49621d39ef36")
+		(uuid "eb4c160f-0cb4-47ad-b8af-c918c040ecaf")
 	)
 	(wire
 		(pts
@@ -3298,6 +3080,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 46.99) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd1077a-6a60-43b1-990c-1273bf71f643")
+	)
+	(wire
+		(pts
 			(xy 49.53 110.49) (xy 81.28 110.49)
 		)
 		(stroke
@@ -3308,7 +3100,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 48.26) (xy 55.88 48.26)
+			(xy 49.53 46.99) (xy 59.69 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3477,7 +3269,7 @@
 		(uuid "c3dc321a-8884-4e2a-acc1-496ad90e2b2a")
 	)
 	(label "VIN"
-		(at 36.83 48.26 180)
+		(at 39.37 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3525,197 +3317,6 @@
 			(justify left bottom)
 		)
 		(uuid "e7995dbf-2c3c-466a-9821-d0d9941a1f7e")
-	)
-	(label "GND"
-		(at 101.6 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fac091e2-3e47-4ae5-ade1-66786acac74e")
-	)
-	(symbol
-		(lib_id "_TPS7B81-Q1:TPS7B8133QDGNRQ1")
-		(at 58.42 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "044d6fd2-38f0-41db-9d44-bb6fd13ab071")
-		(property "Reference" "U2"
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS7B8133QDGNRQ1"
-			(at 78.74 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "_NavLights:VSSOP8_DGN_TEX"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps7b81-q1"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LIN 3.3V 150MA 8-HVSSOP"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Texas Instruments"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "TPS7B8133QDGNRQ1"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "296-TPS7B8133QDGNRQ1CT-ND"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "$1.60"
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 58.42 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "424f5cbe-6588-4ae0-af74-549717287539")
-		)
-		(pin "2"
-			(uuid "1c508a1d-8e54-4056-8bc8-e80ce578bdb0")
-		)
-		(pin "3"
-			(uuid "f617ae00-4993-4a38-abd6-07126f2a5c79")
-		)
-		(pin "4"
-			(uuid "02b97943-0b7d-41f5-9566-241f861e8b57")
-		)
-		(pin "9"
-			(uuid "91ad7ed8-d3e6-48a3-9e03-8010e218d916")
-		)
-		(pin "8"
-			(uuid "9a4d745d-e2a1-431d-b4ee-556c454a3582")
-		)
-		(pin "7"
-			(uuid "18484b9b-17d1-4e05-b812-ec5d143212cf")
-		)
-		(pin "6"
-			(uuid "09365f1e-c6aa-4d4c-a54d-064bc8f1cff3")
-		)
-		(pin "5"
-			(uuid "7da7970d-545c-4bb4-923d-e8791bd6a882")
-		)
-		(instances
-			(project ""
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3871,174 +3472,6 @@
 			(project ""
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 269.24 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16afac38-ee45-4927-8589-3cf433fb6615")
-		(property "Reference" "D2"
-			(at 273.05 127.3174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.05 129.8574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "_NavLights:LED_JB3030AWT_3X3_CRE"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://downloads.cree-led.com/files/ds/j/JSeries-3030.pdf"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED J COOL WHITE 6500K SMD"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "CreeLED"
-			(at 269.24 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "JB3030AWT-P-H65EA0000-N0000001"
-			(at 269.24 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "2138-JB3030AWT-P-H65EA0000-N0000001CT-ND"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "$0.69 for 10"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "$0.10"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 269.24 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 269.24 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 269.24 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 269.24 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9db6f421-2497-4c90-8cfa-141dd25ee74f")
-		)
-		(pin "1"
-			(uuid "bca014e3-5000-4f4f-9c4d-d9252d4cbfc2")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4587,7 +4020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 66.04 0)
+		(at 104.14 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4596,7 +4029,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bedca56-4247-48ff-80ae-28fc885efb91")
 		(property "Reference" "#PWR08"
-			(at 106.68 72.39 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 71.12 0)
+			(at 104.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 66.04 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 66.04 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 66.04 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,15 +4153,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 269.24 149.86 90)
+		(at 269.24 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4ae01f3f-c16e-4666-8e1c-7b11bd6d4b0f")
-		(property "Reference" "D5"
-			(at 273.05 150.1774 90)
+		(uuid "34acce92-45d6-417c-923f-398902e17cb4")
+		(property "Reference" "D2"
+			(at 273.05 127.3174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +4170,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 273.05 152.7174 90)
+			(at 273.05 129.8574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,8 +4178,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_NavLights:LED_JB3030AWT_3X3_CRE"
-			(at 269.24 149.86 0)
+		(property "Footprint" "_NavLights:LED_0606 (M1616)"
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,8 +4187,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://downloads.cree-led.com/files/ds/j/JSeries-3030.pdf"
-			(at 269.24 149.86 0)
+		(property "Datasheet" "https://downloads.cree-led.com/files/ds/x/XLamp-XQE.pdf"
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,8 +4196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED J COOL WHITE 6500K SMD"
-			(at 269.24 149.86 0)
+		(property "Description" "LED XLAMP COOL WHITE 6200K 0606"
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4206,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 149.86 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +4215,7 @@
 			)
 		)
 		(property "Mfr" "CreeLED"
-			(at 269.24 149.86 90)
+			(at 269.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,8 +4223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "JB3030AWT-P-H65EA0000-N0000001"
-			(at 269.24 149.86 90)
+		(property "Mfr P/N" "XQEAWT-00-0000-00000BG51"
+			(at 269.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4233,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 269.24 149.86 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,167 +4241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2138-JB3030AWT-P-H65EA0000-N0000001CT-ND"
-			(at 269.24 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "$0.69 for 10"
-			(at 269.24 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "$0.10"
-			(at 269.24 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 269.24 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 269.24 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 269.24 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 269.24 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8069a4d-4a26-4692-919c-887b3137e37d")
-		)
-		(pin "1"
-			(uuid "c5ea1085-66fa-4712-92ba-a315afca6691")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 119.38 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cc73050-6b08-4d75-a0a8-992d49e5067c")
-		(property "Reference" "TP4"
-			(at 121.412 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_GND"
-			(at 121.412 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "_NavLights:HARWIN_S1751-46R"
-			(at 124.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.harwin.com/m/c5b84e6a45e9b9f6/original/DRG-02202-Technical-Drawing-Datasheet-S1751R-pdf.pdf"
-			(at 124.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Harwin Inc."
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "S1751-46R"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "952-1478-2-ND"
-			(at 119.38 59.69 0)
+		(property "Supplier_1 P/N" "90-XQEAWT-00-0000-00000BG51CT-ND"
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4251,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 119.38 59.69 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,8 +4259,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.28"
-			(at 119.38 59.69 0)
+		(property "Supplier_1 Unit Price" "$1.44000"
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4269,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 119.38 59.69 0)
+			(at 269.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,16 +4278,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 119.38 59.69 0)
+			(at 269.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +4287,525 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 119.38 59.69 0)
+			(at 269.24 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 269.24 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05deb21b-0663-44c3-96bb-82ff9b78a197")
+		)
+		(pin "1"
+			(uuid "f8cdb747-c189-4a42-8b19-5076858cfca6")
+		)
+		(instances
+			(project "Nav-Lights"
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3821ee00-6d30-4faa-a540-4d0f94acc246")
+		(property "Reference" "#PWR06"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b4b1b74-8c60-40f3-8c08-9735a466fc25")
+		)
+		(instances
+			(project ""
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_TPS7B8133QWDRVRQ1(small):TPS7B8133DRVR")
+		(at 78.74 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a53fece-84d3-46da-9614-3543e94af445")
+		(property "Reference" "U2"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7B8133QWDRVRQ1"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_NavLights:SON65P200X200X80-7N"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7b81-q1.pdf?ts=1761582007699&ref_url=https%253A%252F%252Fwww.mouser.mx%252F"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AUTOMOTIVE 150-MA, OFF-BATTERY ("
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "TPS7B8133QWDRVRQ1"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "296-TPS7B8133QWDRVRQ1CT-ND"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$1.43000"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-TPS7B8133DRVRCT-ND"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS7B8133DRVR/Texas+Instruments/view-part/?ref=snap"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WSON-6 Texas Instruments"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS7B8133DRVR/Texas+Instruments/view-part/?ref=eda"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "April 2020"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS7B8133DRVR"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "150-mA, off-battery (40-V), ultra-low-IQ, low-dropout (LDO) voltage regulator with enable"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ddffa43a-5c0c-44eb-8705-8c7967c80baf")
+		)
+		(pin "4"
+			(uuid "5cb5c6bd-cd62-4135-8a71-b37d2ad4d9d2")
+		)
+		(pin "6"
+			(uuid "a1e10aa5-f646-4e92-b3f8-be07c1a9b913")
+		)
+		(pin "5"
+			(uuid "63c809ba-e911-4f4a-9292-aae5b17a84b4")
+		)
+		(pin "7"
+			(uuid "ceced143-4d38-4e85-9bc3-5b1bf008896a")
+		)
+		(pin "1"
+			(uuid "874c4bc2-e308-4366-8337-517c25cb7325")
+		)
+		(pin "2"
+			(uuid "da52030b-ff9e-45a9-9114-62e75c28582d")
+		)
+		(instances
+			(project ""
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cc73050-6b08-4d75-a0a8-992d49e5067c")
+		(property "Reference" "TP4"
+			(at 118.872 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_GND"
+			(at 118.872 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_NavLights:HARWIN_S1751-46R"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c5b84e6a45e9b9f6/original/DRG-02202-Technical-Drawing-Datasheet-S1751R-pdf.pdf"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Harwin Inc."
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "S1751-46R"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "952-1478-2-ND"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.28"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 116.84 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +4827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 66.04 0)
+		(at 116.84 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5053,7 +4836,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dbe8f4e-96b7-4fb4-b102-3d8fea3f58ca")
 		(property "Reference" "#PWR09"
-			(at 119.38 72.39 0)
+			(at 116.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +4845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 71.12 0)
+			(at 116.84 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +4853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 66.04 0)
+			(at 116.84 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +4862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 66.04 0)
+			(at 116.84 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +4871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 66.04 0)
+			(at 116.84 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +4893,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 129.54 50.8 270)
+		(at 127 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5119,7 +4902,7 @@
 		(fields_autoplaced yes)
 		(uuid "519b7ece-b78c-45d1-8f1d-9d80a39e4f5a")
 		(property "Reference" "#PWR011"
-			(at 125.73 50.8 0)
+			(at 123.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +4911,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 133.35 50.7999 90)
+			(at 130.81 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +4920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 50.8 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +4929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 50.8 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +4938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 129.54 50.8 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,6 +4953,174 @@
 			(project "Nav-Lights"
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 269.24 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53aa565e-bc88-454f-8b02-997cecaea5e5")
+		(property "Reference" "D3"
+			(at 273.05 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 273.05 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_NavLights:LED_0606 (M1616)"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://downloads.cree-led.com/files/ds/x/XLamp-XQE.pdf"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED XLAMP COOL WHITE 6200K 0606"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "CreeLED"
+			(at 269.24 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "XQEAWT-00-0000-00000BG51"
+			(at 269.24 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "90-XQEAWT-00-0000-00000BG51CT-ND"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$1.44000"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 269.24 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 269.24 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 269.24 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 269.24 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edd81958-bea6-4590-9cdb-0123fca97284")
+		)
+		(pin "1"
+			(uuid "b3695448-7761-4cae-94c7-29bdbfbe38ff")
+		)
+		(instances
+			(project "Nav-Lights"
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5469,73 +5420,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64a237d7-af1a-46ed-8e24-a42b13fe3dab")
-		(property "Reference" "#PWR04"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8755e8b-13e5-4468-b511-950ebab7261d")
-		)
-		(instances
-			(project ""
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 55.88 0)
+		(at 49.53 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5544,7 +5429,7 @@
 		(fields_autoplaced yes)
 		(uuid "68dd9f1d-118c-468b-99e0-7388bc8aa21f")
 		(property "Reference" "#PWR01"
-			(at 46.99 62.23 0)
+			(at 49.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 60.96 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 55.88 0)
+			(at 49.53 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 55.88 0)
+			(at 49.53 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 55.88 0)
+			(at 49.53 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5486,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 52.07 0)
+		(at 49.53 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5610,7 +5495,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b449147-3bed-4781-b799-a1914de48ee6")
 		(property "Reference" "C1"
-			(at 50.8 50.7999 0)
+			(at 53.34 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5504,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 50.8 53.3399 0)
+			(at 53.34 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,7 +5513,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 47.9552 55.88 0)
+			(at 50.4952 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5522,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +5531,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 50V X5R 0805"
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5655,7 +5540,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +5549,7 @@
 			)
 		)
 		(property "Mfr P/N" "GRM21BR61H106KE43L"
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5558,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5567,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "490-18663-1-ND"
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +5576,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5585,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.28"
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5594,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5603,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5612,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5621,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 46.99 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,174 +5871,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 269.24 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "764c6bac-6bbf-4aa3-99b6-7f98a5eb0b55")
-		(property "Reference" "D4"
-			(at 273.05 142.5574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.05 145.0974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "_NavLights:LED_JB3030AWT_3X3_CRE"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://downloads.cree-led.com/files/ds/j/JSeries-3030.pdf"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED J COOL WHITE 6500K SMD"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "CreeLED"
-			(at 269.24 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "JB3030AWT-P-H65EA0000-N0000001"
-			(at 269.24 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "2138-JB3030AWT-P-H65EA0000-N0000001CT-ND"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "$0.69 for 10"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "$0.10"
-			(at 269.24 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 269.24 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 269.24 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 269.24 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 269.24 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e568d7e-a855-45a5-b324-2159b5b4b573")
-		)
-		(pin "1"
-			(uuid "e30df2da-a54a-48d5-a501-2aae5c8e4a3f")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 100.33 114.3 0)
 		(unit 1)
@@ -6308,6 +6025,72 @@
 			(project ""
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8172f526-d6d4-4495-97c7-c6345d39f8fe")
+		(property "Reference" "#PWR04"
+			(at 29.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b21d2c35-32eb-48ca-a8f0-ad7e0ce4ca0a")
+		)
+		(instances
+			(project ""
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6784,7 +6567,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 62.23 0)
+		(at 104.14 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6793,7 +6576,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fb4d872-4cfb-4994-a85b-3f2e7fc79910")
 		(property "Reference" "C5"
-			(at 110.49 60.9599 0)
+			(at 107.95 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6585,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 110.49 63.4999 0)
+			(at 107.95 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,7 +6594,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 107.6452 66.04 0)
+			(at 105.1052 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +6603,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6612,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 50V X5R 0805"
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6621,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +6630,7 @@
 			)
 		)
 		(property "Mfr P/N" "GRM21BR61H106KE43L"
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +6639,7 @@
 			)
 		)
 		(property "Supplier_1" "DigiKey"
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +6648,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "490-18663-1-ND"
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6657,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6666,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "$0.28"
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +6675,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6684,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +6693,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +6702,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 106.68 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +6793,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 157.48 0)
+		(at 269.24 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7019,7 +6802,7 @@
 		(fields_autoplaced yes)
 		(uuid "9556626e-71f3-4d60-849a-f07985a90d38")
 		(property "Reference" "#PWR020"
-			(at 269.24 163.83 0)
+			(at 269.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +6811,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 162.56 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +6819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +6828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +6837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +6846,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +6855,7 @@
 			)
 		)
 		(property "Mfr P/N" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +6864,7 @@
 			)
 		)
 		(property "Supplier_1" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +6873,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +6882,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +6891,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +6900,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +6909,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,7 +6918,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +6927,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 269.24 157.48 0)
+			(at 269.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,174 +6942,6 @@
 			(project "Nav-Lights"
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 269.24 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "969710ee-ce01-44a4-b264-0346ad8e030d")
-		(property "Reference" "D3"
-			(at 273.05 134.9374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.05 137.4774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "_NavLights:LED_JB3030AWT_3X3_CRE"
-			(at 269.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://downloads.cree-led.com/files/ds/j/JSeries-3030.pdf"
-			(at 269.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED J COOL WHITE 6500K SMD"
-			(at 269.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "CreeLED"
-			(at 269.24 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "JB3030AWT-P-H65EA0000-N0000001"
-			(at 269.24 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 269.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "2138-JB3030AWT-P-H65EA0000-N0000001CT-ND"
-			(at 269.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "$0.69 for 10"
-			(at 269.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "$0.10"
-			(at 269.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 269.24 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 269.24 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 269.24 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 269.24 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c2eabee-92f4-4950-a271-64745c2c7053")
-		)
-		(pin "1"
-			(uuid "2576555e-a79c-4566-ab76-ef00252549ca")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7714,7 +7329,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 149.86 0)
+		(at 49.53 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7723,7 +7338,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3a2a270-8ec1-478d-b1ff-ea128ed5fb35")
 		(property "Reference" "#PWR03"
-			(at 49.53 156.21 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +7347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 151.1299 0)
+			(at 52.07 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 149.86 0)
+			(at 49.53 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +7365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 149.86 0)
+			(at 49.53 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +7374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 149.86 0)
+			(at 49.53 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +7728,7 @@
 				)
 			)
 		)
-		(property "Value" "150uH"
+		(property "Value" "22uH"
 			(at 232.41 113.03 90)
 			(effects
 				(font
@@ -8121,7 +7736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_NavLights:IND_BOURNS_SRN1060"
+		(property "Footprint" "_NavLights:IND_AMDLA4020S-220MT"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -8130,7 +7745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN1060.pdf"
+		(property "Datasheet" "https://abracon.com/datasheets/AMDLA4020S.pdf"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -8139,7 +7754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FIXED IND 150UH 1.25A 300MOHM SM"
+		(property "Description" "FIXED IND 22UH 1.2A 320MOHM SMD"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -8148,7 +7763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Bourns Inc."
+		(property "Mfr" "Abracon LLC"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -8157,7 +7772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "SRN1060-151M"
+		(property "Mfr P/N" "AMDLA4020S-220MT"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -8175,7 +7790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "SRN1060-151MCT-ND"
+		(property "Supplier_1 P/N" "535-AMDLA4020S-220MTCT-ND"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -8184,7 +7799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.67"
+		(property "Supplier_1 Price @ Qty" "$0.83"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -8193,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.67000"
+		(property "Supplier_1 Unit Price" "$0.83000"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -8406,166 +8021,6 @@
 			(project ""
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 49.53 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aecd09bc-9983-401c-9a09-847dac0162f7")
-		(property "Reference" "C2"
-			(at 53.34 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 53.34 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 50.4952 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "KEMET"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "C0603C104K5RACTU"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "DigiKey"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "399-C0603C104K5RACTUCT-ND"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "$0.08"
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 49.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53e8176a-538f-480a-b1b5-4423995f953f")
-		)
-		(pin "2"
-			(uuid "c3023ea0-5f31-4bfd-88e0-c096dae9914e")
-		)
-		(instances
-			(project ""
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9239,6 +8694,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 269.24 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d858b881-2461-4e0d-a525-27857f054525")
+		(property "Reference" "D4"
+			(at 273.05 142.5574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 273.05 145.0974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_NavLights:LED_0606 (M1616)"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://downloads.cree-led.com/files/ds/x/XLamp-XQE.pdf"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED XLAMP COOL WHITE 6200K 0606"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "CreeLED"
+			(at 269.24 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "XQEAWT-00-0000-00000BG51"
+			(at 269.24 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "DigiKey"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "90-XQEAWT-00-0000-00000BG51CT-ND"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "$1.44000"
+			(at 269.24 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 269.24 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 269.24 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 269.24 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 269.24 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3008710c-3174-4e92-9a43-c132163f0ed6")
+		)
+		(pin "1"
+			(uuid "d4e82805-7d8c-4f24-9ca5-33e391881202")
+		)
+		(instances
+			(project "Nav-Lights"
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 81.28 118.11 0)
 		(unit 1)
@@ -9532,7 +9155,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 119.38 50.8 0)
+		(at 116.84 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9540,7 +9163,7 @@
 		(dnp no)
 		(uuid "e60411b7-d6fa-4f56-a102-088651aa20f6")
 		(property "Reference" "TP3"
-			(at 121.412 43.942 0)
+			(at 118.872 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9172,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 121.412 46.482 0)
+			(at 118.872 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,7 +9181,7 @@
 			)
 		)
 		(property "Footprint" "_NavLights:HARWIN_S1751-46R"
-			(at 124.46 50.8 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +9190,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.harwin.com/m/c5b84e6a45e9b9f6/original/DRG-02202-Technical-Drawing-Datasheet-S1751R-pdf.pdf"
-			(at 124.46 50.8 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9199,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,7 +9208,7 @@
 			)
 		)
 		(property "Mfr" "Harwin Inc."
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +9217,7 @@
 			)
 		)
 		(property "Mfr P/N" "S1751-46R"
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9226,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9235,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "952-1478-2-ND"
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +9244,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +9253,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.28"
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +9262,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +9271,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +9280,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +9289,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 119.38 50.8 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,72 +9304,6 @@
 			(project "Nav-Lights"
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e74ad5a9-aac6-4640-9273-71d48a932f0d")
-		(property "Reference" "#PWR06"
-			(at 99.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57905550-ea31-44e8-891e-3442673936f9")
-		)
-		(instances
-			(project ""
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9779,7 +9336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_NavLights:LED_JB3030AWT_3X3_CRE"
+		(property "Footprint" "_NavLights:LED_0606 (M1616)"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -9788,7 +9345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://downloads.cree-led.com/files/ds/j/JSeries-3030.pdf"
+		(property "Datasheet" "https://downloads.cree-led.com/files/ds/x/XLamp-XQE.pdf"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -9797,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED J COOL WHITE 6500K SMD"
+		(property "Description" "LED XLAMP COOL WHITE 6200K 0606"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -9824,7 +9381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "JB3030AWT-P-H65EA0000-N0000001"
+		(property "Mfr P/N" "XQEAWT-00-0000-00000BG51"
 			(at 269.24 119.38 90)
 			(effects
 				(font
@@ -9842,7 +9399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2138-JB3030AWT-P-H65EA0000-N0000001CT-ND"
+		(property "Supplier_1 P/N" "90-XQEAWT-00-0000-00000BG51CT-ND"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -9851,7 +9408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "$0.69 for 10"
+		(property "Supplier_1 Price @ Qty" "1"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -9860,7 +9417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10"
+		(property "Supplier_1 Unit Price" "$1.44000"
 			(at 269.24 119.38 0)
 			(effects
 				(font
@@ -9945,7 +9502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "05-08-1799_ADI"
+		(property "Footprint" "_NavLights:05-08-1799_ADI"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -9955,7 +9512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt8374-8374-1.pdf"
+		(property "Datasheet" "LT8374RUFM-WPBF"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -9965,7 +9522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60V 1A SIMPLE LED DRIVER - 330KH"
+		(property "Description" "60V 1A SIMPLE LED DRIVER - 2MHz"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -9983,7 +9540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "LT8374RUFM#WPBF"
+		(property "Mfr P/N" "LT8374RUFM-1#WPBF"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -10001,7 +9558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "505-LT8374RUFM#WPBF-ND"
+		(property "Supplier_1 P/N" "505-LT8374RUFM-1#WPBF-ND"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -10019,7 +9576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$5.34"
+		(property "Supplier_1 Unit Price" "$3.92000"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -10284,6 +9841,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 29.21 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f50b4de6-d66a-405f-98eb-307c935c957b")
+		(property "Reference" "#FLG01"
+			(at 29.21 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbfe670d-fede-4dfe-8e60-29255ea09953")
+		)
+		(instances
+			(project ""
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Timer:LMC555xM")
 		(at 49.53 129.54 0)
 		(unit 1)
@@ -10291,7 +9914,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa19c10e-429c-484f-b63d-954675cde497")
 		(property "Reference" "U1"
 			(at 51.6733 116.84 0)
@@ -10302,7 +9924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LMC555xCMX"
+		(property "Value" "LMC555CMMX"
 			(at 51.6733 119.38 0)
 			(effects
 				(font
@@ -10347,7 +9969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "LMC555CMX/NOPB"
+		(property "Mfr P/N" "LMC555CMMX/NOPB"
 			(at 49.53 129.54 0)
 			(effects
 				(font
@@ -10365,7 +9987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1 P/N" "LMC555CMX/NOPBCT-ND"
+		(property "Supplier 1 P/N" "LMC555CMMX/NOPBCT-ND"
 			(at 49.53 129.54 0)
 			(effects
 				(font
@@ -10374,7 +9996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1 Unit Price" "$1.10000"
+		(property "Supplier 1 Unit Price" "$1.26000"
 			(at 49.53 129.54 0)
 			(effects
 				(font
