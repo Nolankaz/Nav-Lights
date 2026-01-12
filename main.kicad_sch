@@ -5,27 +5,24 @@
 	(uuid "f0920260-ec96-4556-8427-4dc1d77f510f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
-				(offset 0.762)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,7 +30,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,15 +39,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +56,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,24 +73,66 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -102,6 +140,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2098,12 +2154,6 @@
 		(uuid "19f95fa8-6598-4cd9-a2ff-2b9d56477ad6")
 	)
 	(junction
-		(at 223.52 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b4d3e76-2858-467c-b77f-e6c3f0c20112")
-	)
-	(junction
 		(at 185.42 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2223,24 +2273,6 @@
 		(color 0 0 0 0)
 		(uuid "dddfe9a7-77b6-4d01-b4ec-4d5623b8a218")
 	)
-	(junction
-		(at 219.71 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9436e56-36ae-4d5c-b2c7-1267bc4a11ff")
-	)
-	(junction
-		(at 215.9 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecec241d-6863-4e03-91aa-5639d902b36a")
-	)
-	(junction
-		(at 116.84 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6c58661-10a1-46d9-a24b-f6717e2abceb")
-	)
 	(no_connect
 		(at 96.52 52.07)
 		(uuid "a6b41fbf-5c35-47fb-985b-a13f1f1df676")
@@ -2248,6 +2280,16 @@
 	(no_connect
 		(at 190.5 54.61)
 		(uuid "f0685769-0e42-4d5b-b348-5bccbacebfdb")
+	)
+	(wire
+		(pts
+			(xy 33.02 78.74) (xy 39.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ccdb35-15bd-4534-b826-ef1af04bb3db")
 	)
 	(wire
 		(pts
@@ -2321,16 +2363,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 116.84 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f5bfbb2-b060-45e8-97a6-8d670ffd246b")
-	)
-	(wire
-		(pts
 			(xy 142.24 109.22) (xy 154.94 109.22)
 		)
 		(stroke
@@ -2348,16 +2380,6 @@
 			(type default)
 		)
 		(uuid "1e1d517c-3fde-4af9-a228-9755e9fc463c")
-	)
-	(wire
-		(pts
-			(xy 116.84 46.99) (xy 127 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ea06d73-71d6-474f-bd77-785edb4a43be")
 	)
 	(wire
 		(pts
@@ -2581,16 +2603,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 49.53) (xy 219.71 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e7767d9-fa4e-47c4-8266-1b314731ec34")
-	)
-	(wire
-		(pts
 			(xy 234.95 64.77) (xy 234.95 63.5)
 		)
 		(stroke
@@ -2741,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 46.99) (xy 116.84 46.99)
+			(xy 104.14 46.99) (xy 127 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2778,6 +2790,16 @@
 			(type default)
 		)
 		(uuid "c996a281-c148-4033-a3a6-e20241b10674")
+	)
+	(wire
+		(pts
+			(xy 33.02 81.28) (xy 39.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99f6669-924a-4657-8499-62c573c257ff")
 	)
 	(wire
 		(pts
@@ -2951,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 49.53) (xy 215.9 49.53)
+			(xy 215.9 49.53) (xy 224.79 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3008,6 +3030,16 @@
 			(justify left bottom)
 		)
 		(uuid "39514941-c96a-4ffd-9c61-42f9cd8b7cb7")
+	)
+	(label "GND"
+		(at 39.37 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "443ff02e-563d-4521-91fc-d7658d1de640")
 	)
 	(label "INTVCC"
 		(at 53.34 109.22 0)
@@ -3139,6 +3171,16 @@
 		)
 		(uuid "e7995dbf-2c3c-466a-9821-d0d9941a1f7e")
 	)
+	(label "VIN"
+		(at 39.37 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecc450a5-8357-4c8a-9f9e-011ed688ac75")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 36.83 107.95 180)
@@ -3175,7 +3217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H475KE51-01.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71H475KE13-01.pdf"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -3184,7 +3226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 50V X5R 0805"
+		(property "Description" "CAP CER 4.7UF 50V X7S 0805"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -3202,7 +3244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GRM21BR61H475KE51L"
+		(property "Mfr P/N" "GRT21BC71H475KE13L"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -3220,7 +3262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-10751-1-ND"
+		(property "Supplier_1 P/N" "490-GRT21BC71H475KE13LCT-ND"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -3238,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.19"
+		(property "Supplier_1 Unit Price" "$0.31"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -3551,7 +3593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 235.966 59.944 90)
 			(effects
 				(font
@@ -3560,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -3569,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2.49M OHM 1% 1/10W 0603"
+		(property "Description" "RES 2.49M OHM 1% 1/10W 0402"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -3578,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Stackpole Electronics Inc"
+		(property "Mfr" "KOA Speer Electronics, Inc."
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -3587,7 +3629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RMCF0603FT2M49"
+		(property "Mfr P/N" "RK73H1ETTP2494F"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -3596,7 +3638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "DigKey"
+		(property "Supplier_1" "DigiKey"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -3605,7 +3647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "RMCF0603FT2M49CT-ND"
+		(property "Supplier_1 P/N" "2019-RK73H1ETTP2494FCT-ND"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -3678,162 +3720,6 @@
 			(project ""
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 219.71 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "224fc0e6-df07-4798-8503-63d0141562e9")
-		(property "Reference" "TP1"
-			(at 221.742 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_SIGNAL"
-			(at 221.742 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "_NavLights:HARWIN_S1751-46R"
-			(at 224.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.harwin.com/m/c5b84e6a45e9b9f6/original/DRG-02202-Technical-Drawing-Datasheet-S1751R-pdf.pdf"
-			(at 224.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Harwin Inc."
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "S1751-46R"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "952-1478-2-ND"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.28"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83a54e94-b76f-4221-8c39-87c740359c2d")
-		)
-		(instances
-			(project ""
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4716,228 +4602,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 116.84 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cc73050-6b08-4d75-a0a8-992d49e5067c")
-		(property "Reference" "TP4"
-			(at 118.872 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_GND"
-			(at 118.872 51.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "_NavLights:HARWIN_S1751-46R"
-			(at 121.92 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.harwin.com/m/c5b84e6a45e9b9f6/original/DRG-02202-Technical-Drawing-Datasheet-S1751R-pdf.pdf"
-			(at 121.92 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Harwin Inc."
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "S1751-46R"
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "952-1478-2-ND"
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.28"
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 116.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dc37361-bdc2-4e14-a7e8-bb1fba15914c")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dbe8f4e-96b7-4fb4-b102-3d8fea3f58ca")
-		(property "Reference" "#PWR09"
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69813077-93e4-4a2b-a2d2-d501189718c4")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 127 46.99 270)
 		(unit 1)
@@ -5491,7 +5155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 47.9552 127 0)
 			(effects
 				(font
@@ -5500,7 +5164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 46.99 123.19 0)
 			(effects
 				(font
@@ -5509,7 +5173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47PF 50V C0G/NP0 0603"
+		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
 			(at 46.99 123.19 0)
 			(effects
 				(font
@@ -5518,7 +5182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Vishay Vitramon"
+		(property "Mfr" "Murata Electronics"
 			(at 46.99 123.19 0)
 			(effects
 				(font
@@ -5527,7 +5191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "VJ0603A470FXACW1BC"
+		(property "Mfr P/N" "GCM1555C1H470FA16D"
 			(at 46.99 123.19 0)
 			(effects
 				(font
@@ -5545,7 +5209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "720-VJ0603A470FXACW1BCCT-ND"
+		(property "Supplier_1 P/N" "490-16445-1-ND"
 			(at 46.99 123.19 0)
 			(effects
 				(font
@@ -5563,7 +5227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.13"
+		(property "Supplier_1 Unit Price" "$0.10"
 			(at 46.99 123.19 0)
 			(effects
 				(font
@@ -6262,7 +5926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254.9652 43.18 0)
 			(effects
 				(font
@@ -6271,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -6280,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -6289,7 +5953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KEMET"
+		(property "Mfr" "Murata Electronics"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -6298,7 +5962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "C0603C104K5RACTU"
+		(property "Mfr P/N" "GRM155C71H104JE19D"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -6316,7 +5980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "399-C0603C104K5RACTUCT-ND"
+		(property "Supplier_1 P/N" "490-GRM155C71H104JE19DCT-ND"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -6334,7 +5998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.08"
+		(property "Supplier_1 Unit Price" "$0.10"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -6455,318 +6119,6 @@
 			(project ""
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 215.9 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81e81216-86b8-40db-a8a8-03af9f5e7939")
-		(property "Reference" "TP5"
-			(at 217.932 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_ISN"
-			(at 217.932 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "_NavLights:HARWIN_S1751-46R"
-			(at 220.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.harwin.com/m/c5b84e6a45e9b9f6/original/DRG-02202-Technical-Drawing-Datasheet-S1751R-pdf.pdf"
-			(at 220.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Harwin Inc."
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "S1751-46R"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "952-1478-2-ND"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.28"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e22bf2b7-449f-4980-a81b-54f05ff2fabb")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 223.52 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82fecdc2-4f5d-4510-8cf4-91ac4d7d8628")
-		(property "Reference" "TP2"
-			(at 225.806 70.612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_THR"
-			(at 225.806 68.072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "_NavLights:HARWIN_S1751-46R"
-			(at 223.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.harwin.com/m/c5b84e6a45e9b9f6/original/DRG-02202-Technical-Drawing-Datasheet-S1751R-pdf.pdf"
-			(at 223.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Harwin Inc."
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "S1751-46R"
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "952-1478-2-ND"
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.28"
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6ddc7a6-9fde-4852-b6ae-641badb4659e")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7113,7 +6465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.974 98.044 90)
 			(effects
 				(font
@@ -7122,7 +6474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 45.72 99.06 0)
 			(effects
 				(font
@@ -7131,7 +6483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 274K OHM 0.1% 1/10W 0603"
+		(property "Description" "RES 274K OHM 1% 1/10W 0402"
 			(at 45.72 99.06 0)
 			(effects
 				(font
@@ -7140,7 +6492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic Electronic Components"
+		(property "Mfr" "KOA Speer Electronics, Inc."
 			(at 45.72 99.06 0)
 			(effects
 				(font
@@ -7149,7 +6501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB2743V"
+		(property "Mfr P/N" "RK73H1ETTP2743F"
 			(at 45.72 99.06 0)
 			(effects
 				(font
@@ -7167,7 +6519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P274KDBCT-ND"
+		(property "Supplier_1 P/N" "2019-RK73H1ETTP2743FCT-ND"
 			(at 45.72 99.06 0)
 			(effects
 				(font
@@ -7406,7 +6758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.006 115.824 90)
 			(effects
 				(font
@@ -7415,7 +6767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 46.99 115.57 0)
 			(effects
 				(font
@@ -7424,7 +6776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+		(property "Description" "RES 10K OHM 0.1% 0.13W 0402"
 			(at 46.99 115.57 0)
 			(effects
 				(font
@@ -7433,7 +6785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic Electronic Components"
+		(property "Mfr" "Vishay Dale"
 			(at 46.99 115.57 0)
 			(effects
 				(font
@@ -7442,7 +6794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB103V"
+		(property "Mfr P/N" "TNPW040210K0BYEP"
 			(at 46.99 115.57 0)
 			(effects
 				(font
@@ -7460,7 +6812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P10KDBCT-ND"
+		(property "Supplier_1 P/N" "541-4430-1-ND"
 			(at 46.99 115.57 0)
 			(effects
 				(font
@@ -7478,7 +6830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10"
+		(property "Supplier_1 Unit Price" "$0.49"
 			(at 46.99 115.57 0)
 			(effects
 				(font
@@ -8327,7 +7679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.81 105.7148 0)
 			(effects
 				(font
@@ -8336,7 +7688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21B5C1H223FA16-01.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H223JA12-01A.pdf"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -8345,7 +7697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.022UF 50V C0G/NP0 0805"
+		(property "Description" "CAP CER 0.022UF 50V X7R 0402"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -8363,7 +7715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GCM21B5C1H223FA16L"
+		(property "Mfr P/N" "GRM155R71H223JA12D"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -8381,7 +7733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GCM21B5C1H223FA16LCT-ND"
+		(property "Supplier_1 P/N" "490-GRM155R71H223JA12DCT-ND"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -8399,7 +7751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.52"
+		(property "Supplier_1 Unit Price" "$0.10"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -8454,6 +7806,164 @@
 			(project ""
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 27.94 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c264bb4a-f9ca-46ff-a9af-523805baaa3c")
+		(property "Reference" "J1"
+			(at 28.575 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 28.575 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad9d1eef-4fdf-41bd-adec-b0b42346af00")
+		)
+		(pin "2"
+			(uuid "4ad78c94-578e-4c1a-9986-5c87ef6c06ba")
+		)
+		(instances
+			(project ""
+				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8815,7 +8325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 235.966 43.434 90)
 			(effects
 				(font
@@ -8824,7 +8334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -8833,7 +8343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100K OHM 1% 1/10W 0603"
+		(property "Description" "RES 100K OHM 0.1% 0.13W 0402"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -8842,7 +8352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Stackpole Electronics Inc"
+		(property "Mfr" "Vishay Dale"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -8851,7 +8361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RMCF0603FT100K"
+		(property "Mfr P/N" "TNPW0402100KBEED"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -8869,7 +8379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "RMCF0603FT100KCT-ND"
+		(property "Supplier_1 P/N" "TNP100KDACT-ND"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -8887,7 +8397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.10"
+		(property "Supplier_1 Unit Price" "$0.23"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -9233,162 +8743,6 @@
 			(project "Nav-Lights"
 				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 116.84 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e60411b7-d6fa-4f56-a102-088651aa20f6")
-		(property "Reference" "TP3"
-			(at 118.872 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 118.872 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "_NavLights:HARWIN_S1751-46R"
-			(at 121.92 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.harwin.com/m/c5b84e6a45e9b9f6/original/DRG-02202-Technical-Drawing-Datasheet-S1751R-pdf.pdf"
-			(at 121.92 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Harwin Inc."
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "S1751-46R"
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "952-1478-2-ND"
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.28"
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f97a5d3-275c-4286-a87a-3becf6bb5b3e")
-		)
-		(instances
-			(project "Nav-Lights"
-				(path "/30b0ade0-bb43-474b-8aae-09f32d71430b/37ef2721-07c8-41aa-a59b-e8cb61a196fe"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
